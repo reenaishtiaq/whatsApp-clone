@@ -1,0 +1,84 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+main {
+	background: white;
+}
+#whtsapp{
+	padding: 10px 40px;
+	width: 40%;
+	margin: 20px 100px;
+}
+#chat-area {
+	padding: 10px;
+}
+#srch{
+    float: right;
+    margin-top: -53px;
+}
+header {
+	background: #009688;
+}
+h2 {
+	padding: 12px 15px;
+
+    color: white;
+}
+#search-bar i{
+	padding: 20px;
+    color: white;
+}
+ul{
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+li{
+    list-style-type: none;
+    color: white;
+}
+img{
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+    display: block;
+    border-radius: 50%;
+    width: 35px;
+}
+h3{
+	padding: 20px;
+    font-size: 100%;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+}  
+#name{
+	display: flex;
+     justify-content: flex-start; 
+}
+#time{
+    display:flex;
+    justify-content: flex-end;
+    font-size: 12px;
+	color: rgba(0, 0, 0, .4);
+}
+p{
+    margin-top: -10px;
+    margin-left: 50px;
+}
+#conversation span{
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-size: 12px;
+    background: #0cdc74;
+    color: white;
+    float: right;
+    align-items: center;
+}
+
